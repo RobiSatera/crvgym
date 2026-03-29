@@ -1,0 +1,201 @@
+body {
+    background: #a0d8ef;
+    font-family: 'Audiowide', sans-serif;
+    background-image: url('gym.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+.input-form {
+    background: transparent;
+    width: 30%;
+    margin: 9em auto;
+    padding: 1em;
+    border-radius: 10px;
+    outline-color: black;
+    box-shadow: 5px 5px 10px 0px #33333355;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+input {
+    width: 95%;
+    display: block;
+    margin: .8em auto;
+    margin-top: .1em;
+    padding: .5em .2em;
+    outline-color: #3399ff;
+}
+
+label {
+    font-size: .9em;
+    color: #73B85E;
+    margin-left: .5em;
+}
+
+input[type='submit'] {
+    background: #417132;
+    color: #ffffff;
+    border: none;
+    padding: .7em;
+    border-radius: 10px;
+}
+
+input[type='submit']:hover {
+    background: #001f66;
+    color: #1a75ff;
+}
+
+.alert {
+    text-align: center;
+    font-size: .8em;
+    color: #ff3333;
+}
+
+.title {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #73B85E;
+}
+
+.navbar {
+    width: 100%;
+    background: #172813;
+    box-shadow: 3px 3px 3px 0px #00000055;
+    padding: 0.1em 0;         
+}
+
+.logo {
+    display: inline-block;
+    width: 120px;              
+    height: 50px;              
+    background-image: url("robilovecharlie.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 0px;        
+}
+
+/* Rest of navbar links */
+.right-link {
+    width: 20%;
+    margin-left: auto;
+    margin: 0px;
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    padding: 1.3em;
+}
+
+.right-link a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1.3em;
+}
+
+.right-link a:hover {
+    background-color: #45a230;
+}
+
+.right-link a:active {
+    background-color: #66ccff;
+}
+
+.left-link {
+    display: inline-block;
+    width: 70%;
+    margin: 0px;
+    margin-right: auto;
+}
+
+.left-link a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1em;
+}
+
+.container {
+    min-height: 40vh;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    background: #5dbd9a;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 2px 2px 2px 0px;
+    margin-top: 10px;
+}
+
+.banner {
+    min-height: 20vh;
+    width: 100%;
+    background: #0066cc;
+    padding: .5em;
+    background-image: url("weights.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.pro-pic {
+    background-image: url("mc.jpg");
+    background-size: cover;
+    background-position: center center;
+    border: solid 5px #fff;
+    border-radius: 50%;
+    width: 20vh;
+    height: 20vh;
+    position: absolute;
+    bottom: -10vh;
+    left: 10vh;
+    z-index: 100;
+    box-shadow: 2px 2px 2px 0px #00000055;
+}
+
+.banner-name {
+    font-size: 2em;
+    color: #003366;
+    position: absolute;
+    left: 35vh;
+    bottom: -5vh;
+}
+
+.post-container {
+    margin: 5vh;
+    margin-top: 15vh;
+}
+
+.post-form {
+    width: 50%;
+    margin-top: auto;
+}
+
+#post-area {
+    display: block;
+    resize: none;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+#post-button {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.post-block {
+    padding: 1em;
+    margin: .5em .5em;
+    border: solid .10px #fff;
+    border-radius: 5px;
+}
